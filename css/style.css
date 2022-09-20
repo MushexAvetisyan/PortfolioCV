@@ -219,4 +219,59 @@ header.scrolled .logo{
     font-size: 3rem;
 }
 
+.showcase-area .text{
+     margin: 0.8rem 0;
+}
 
+.cta{
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.cta .btn{
+    margin-right: 1.5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: .9rem 1.75rem;
+    border-radius: 17px;
+    background-color: var(--main-color-1);
+    color: #fff;
+    font-size: .85rem;
+    letter-spacing: .4px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--main-color-dark-1);
+}
+
+.btn.secondary-btn{
+    position: relative;
+    background-color: transparent;
+    color: var(--main-color-1);
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+    border-bottom: 2.5px solid var(--main-color-2);
+    border-radius: 0;
+    padding: 0.15rem 0;
+}
+
+.btn.secondary-btn::before{
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    width: 5%;
+    bottom: -2.5px;
+    left: 0;
+    background-color: var(--main-color-1);
+    transition: 0.3s ease-in-out;
+}
+
+.btn.secondary-btn:hover::before{
+    width: 100%;
+}
