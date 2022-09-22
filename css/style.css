@@ -30,7 +30,7 @@
 
 body{
     overflow-x: hidden;
-    background-color: var(--bg-color);
+    background-image: url("/assets/vecteezy.jpg");
     font-family: "Poppins", sans-serif;
 }
 
@@ -94,6 +94,12 @@ ul{
     color: var(--text-color);
     font-size: 0.9rem;
     margin: 2rem 0;
+    cursor: pointer;
+}
+
+.text:hover{
+    color: white;
+    transition: ease-in-out 0.7s;
 }
 
 /*-------------NAVBAR STYLING-------------*/
@@ -133,6 +139,7 @@ header.scrolled .logo{
     flex: 1;
     display: flex;
     justify-content: space-between;
+    background-image: url("/assets/9b3478ac.png");
 }
 
 .links ul{
@@ -190,6 +197,7 @@ header.scrolled .logo{
     cursor: pointer;
     box-shadow: 0 0 10px 0 rgba(0,0,0, 0.05);
     transition: 0.3s;
+    margin-right: 1rem;
 }
 
 .toggle-btn:hover{
@@ -205,7 +213,7 @@ header.scrolled .logo{
 
 .showcase-area .container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 550px;
     height: calc(100vh - 120px);
     max-height: 600px;
     align-items: center;
@@ -274,4 +282,35 @@ header.scrolled .logo{
 
 .btn.secondary-btn:hover::before{
     width: 100%;
+}
+
+.showcase-image{
+    position: relative;
+    width: 100%;
+    min-height: calc(100% + 120px);
+    margin-top: -120px;
+    border-radius: 0 0 80px 80px;
+}
+
+.showcase-image img{
+    border-radius: 50px;
+}
+
+.showcase-image .person{
+     position: absolute;
+     width: 95%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dots{
+    width: 112px;
+}
+
+.showcase-area .dots{
+    position: absolute;
+    left: 100%;
+    top: 30%;
+    transform: translate(-50%, -50%);
 }

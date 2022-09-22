@@ -26,6 +26,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Cfjrr4LbBpshVNhIFjfOBYFo1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +34,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -55,6 +57,9 @@
       <workItem from="1662586455606" duration="74000" />
       <workItem from="1662618552299" duration="27000" />
       <workItem from="1663276570225" duration="594000" />
+      <workItem from="1663666802756" duration="2581000" />
+      <workItem from="1663670929312" duration="5181000" />
+      <workItem from="1663841728547" duration="751000" />
     </task>
     <servers />
   </component>
