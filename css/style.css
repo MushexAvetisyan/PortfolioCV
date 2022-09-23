@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 /*-------------Web Site Theme-------------*/
 
 :root{
@@ -60,8 +61,8 @@ ul{
     margin-right: 1.5rem;
     height: 120px;
     line-height: 120px;
-    font-family: "Abril Fatface", cursive;
-    font-size: 1.5rem;
+    font-family: 'Ms Madi', cursive;
+    font-size: 3rem;
     color: white;
     letter-spacing: 1px;
     transition: 0.3s ;
@@ -90,7 +91,7 @@ ul{
     width: 3px;
     bottom: 68%;
     left: 25px;
-    background-color: var(--main-color-2);
+    background-color: crimson;
     transition: 0.5s ease-in-out;
     z-index: -10;
 }
@@ -107,23 +108,24 @@ ul{
 
 
 .heading{
-    color: var(--heading-color);
+    color: currentColor;
     font-size: 3rem;
-    font-family: "Abril Fatface", cursive;
+    font-family: 'Ms Madi', cursive;
     font-weight: 400;
     line-height: 1.3;
 }
 
 .text{
-    color: var(--text-color);
-    font-size: 0.9rem;
+    color: currentColor;
+    font-size: 15px;
     margin: 2rem 0;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .text:hover{
     color: white;
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 0.5s;
 }
 
 /*-------------NAVBAR STYLING-------------*/
@@ -187,7 +189,7 @@ header.scrolled .logo{
     content: "";
     position: absolute;
     width: 0;
-    height: 10px;
+    height: 3px;
     border-radius: 5px;
     background-color: crimson;
     top: 15px;
